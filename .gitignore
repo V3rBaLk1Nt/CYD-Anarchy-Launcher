@@ -1,0 +1,16 @@
+# Private / local-only
+docs/CHECKPOINT.yaml
+.claude/
+.vscode/
+*.bak.*
+
+# Build artifacts
+.pio/
+compile_commands.json
+*.d
+.nimble/
+
+# Env / credentials
+.env
+*.pem
+id_rsa*
